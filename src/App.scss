@@ -1,0 +1,12 @@
+html, body {
+    height: 100vh;
+    width: 100vw;
+}
+
+body{
+    background-image: url(./static/background_image.jpeg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    background-attachment: fixed;
+}

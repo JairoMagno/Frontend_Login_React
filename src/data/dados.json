@@ -1,0 +1,22 @@
+[
+    {
+        "label": "iusuario",
+        "span": "person",
+        "type": "email", 
+        "name": "Email",
+        "id": "formGroupEmail",
+        "placeholder": "Digite seu email",
+        "autocomplete": "email",
+        "icon": "@"
+    },
+    {
+        "label": "isenha",
+        "span": "vpn_key",
+        "type": "password", 
+        "name": "Senha",
+        "id": "formGroupPassword",
+        "placeholder": "Digite sua senha",
+        "autocomplete": "current-password",
+        "icon": "*"
+    }
+]
