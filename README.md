@@ -1,3 +1,6 @@
+Projeto de uma tela de login utilizando o react js. Também irá conter o crud para comunicação com alguma API.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
