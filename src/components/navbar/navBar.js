@@ -16,11 +16,11 @@ function NavBar () {
                         <Image src={logoGPEB} roundedCircle />
                     </Col>
                 </Row>
-                <Navbar.Brand href="#home">LIHOM</Navbar.Brand>
+                <Navbar.Brand href="#home"><span className='navbar-letter-color'>LIHOM</span></Navbar.Brand>
                 <Navbar.Toggle />
                 <Navbar.Collapse className="justify-content-end">
                     <Navbar.Text className="pe-4">
-                        Não tem uma conta?
+                        <span className='navbar-letter-color'>Não tem uma conta?</span>
                     </Navbar.Text>
                     <Button variant="primary" type="submit" className="btn-sm" id='botao'>Criar uma conta</Button>
                 </Navbar.Collapse>
