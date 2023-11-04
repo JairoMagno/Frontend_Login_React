@@ -1,0 +1,11 @@
+main {
+    width: 100vw;
+    height: 100vh;
+}
+
+.app-container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: auto 1fr; /* Define uma coluna fixa para a SideBar e uma coluna flexível para outro componente */
+    align-items: center;             /* Alinha os elementos verticalmente no topo */
+}

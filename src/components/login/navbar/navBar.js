@@ -5,7 +5,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import { Button } from 'react-bootstrap';
 import './navbar.scss';
-import logoGPEB from '../../static/Logo_GPEB_Menor_40x46.png';
+import logoGPEB from '../../../static/Logo_GPEB_Menor_40x46.png';
 
 function NavBar () {
     return (

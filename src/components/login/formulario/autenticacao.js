@@ -1,4 +1,4 @@
-import data from '../../data/dados.json';
+import data from '../../../data/dados.json';
 import { Form, InputGroup } from 'react-bootstrap';
 import { HiOutlineMail } from "react-icons/hi";
 import { MdOutlineVpnKey } from "react-icons/md";

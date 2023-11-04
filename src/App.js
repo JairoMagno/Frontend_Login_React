@@ -1,11 +1,10 @@
-import Tela from './components/tela';
-import NavBar from './components/navbar/navBar';
+import Tela from './components/login/tela';
+import TelaPosLogin from './components/pos_login/tela_pos_login';
 import './App.scss';
 
 function App() {
   return (
       <body>
-        <NavBar />
         <Tela />
       </body>
   );
