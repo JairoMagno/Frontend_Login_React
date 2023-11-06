@@ -1,0 +1,50 @@
+[
+    {
+        "label": "inome",
+        "type": "email", 
+        "name": "Nome",
+        "id": "name",
+        "placeholder": "Digite seu nome",
+        "autocomplete": "email"
+    },
+    {
+        "label": "icurso",
+        "type": "password", 
+        "name": "Curso",
+        "id": "course",
+        "placeholder": "Digite seu curso",
+        "autocomplete": "current-password"
+    },
+    {
+        "label": "iemail",
+        "type": "email", 
+        "name": "Email",
+        "id": "formGroupEmail",
+        "placeholder": "Digite seu email",
+        "autocomplete": "email"
+    },
+    {
+        "label": "isenha",
+        "type": "password", 
+        "name": "Senha",
+        "id": "formGroupPassword",
+        "placeholder": "Digite sua senha",
+        "autocomplete": "current-password"
+    },
+    {
+        "label": "iprivilegio",
+        "type": "password", 
+        "name": "Privilégio",
+        "id": "privilege",
+        "placeholder": "Informe o privilégio",
+        "autocomplete": "current-password"
+    },
+    {
+        "label": "iId",
+        "type": "password", 
+        "name": "ID Cartao",
+        "id": "id-card",
+        "placeholder": "ID cartão",
+        "autocomplete": "current-password"
+    }
+]
