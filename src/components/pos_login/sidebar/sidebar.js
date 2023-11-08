@@ -1,3 +1,4 @@
+import { NavLink } from 'react-router-dom';
 import Container from 'react-bootstrap/Container';
 import Image from 'react-bootstrap/Image';
 import Row from 'react-bootstrap/Row';
@@ -10,12 +11,14 @@ import {
     CDBSidebarMenu,
     CDBSidebarMenuItem,
   } from 'cdbreact';
+  import router from "../../../data/sideBarRouter.json"
+  import './sidebar.scss';
 
 
 function SideBar () {
 
     return (
-        <CDBSidebar toggled='false' textColor="#333" backgroundColor="#f0f0f0">
+        <CDBSidebar toggled="false" textColor="#333" backgroundColor="#f0f0f0">
         <CDBSidebarHeader prefix={<i className="fa fa-bars" />}>
             <Container>
               <Row>
@@ -25,14 +28,18 @@ function SideBar () {
               </Row>
             </Container>
         </CDBSidebarHeader>
-        <CDBSidebarContent>
-          <CDBSidebarMenu>
-            <CDBSidebarMenuItem icon="th-large">Dashboard</CDBSidebarMenuItem>
-            <CDBSidebarMenuItem icon="sticky-note">Registro Completo</CDBSidebarMenuItem>
-            <CDBSidebarMenuItem icon="credit-card" iconType="solid">
-              Cadastro
-            </CDBSidebarMenuItem>
-            <CDBSidebarMenuItem > Logout</CDBSidebarMenuItem>
+        <CDBSidebarContent >
+          <CDBSidebarMenu className="nav-router">
+            {router.map((data, index) => (
+              <NavLink to={data.to} >
+                <CDBSidebarMenuItem icon={data.icon} >{data.message}</CDBSidebarMenuItem>
+              </NavLink>
+            ))}
+
+            <NavLink to="/">
+              <CDBSidebarMenuItem > Logout</CDBSidebarMenuItem>
+            </NavLink>
+            
           </CDBSidebarMenu>
         </CDBSidebarContent>
       </CDBSidebar>

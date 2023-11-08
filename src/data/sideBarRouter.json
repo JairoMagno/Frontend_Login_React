@@ -1,0 +1,17 @@
+[
+    {
+        "to": "/",
+        "icon": "th-large",
+        "message": "Dashboard"
+    }, 
+    {
+        "to": "/registro",
+        "icon": "sticky-note",
+        "message": "Registro"
+    }, 
+    {
+        "to": "/cadastro",
+        "icon": "credit-card",
+        "message": "Cadastro"
+    }
+]

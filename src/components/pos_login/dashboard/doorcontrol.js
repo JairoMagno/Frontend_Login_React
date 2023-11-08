@@ -4,7 +4,7 @@ import { Card } from 'react-bootstrap';
 function OpenDoor () {
 
     const estiloBotao = {
-        'padding-right': '2.5rem', // Defina a largura do preenchimento horizontal desejada
+        'paddingRight': '2.5rem', // Defina a largura do preenchimento horizontal desejada
       };
 
     return (

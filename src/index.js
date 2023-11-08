@@ -1,3 +1,4 @@
+import { MemoryRouter, BrowserRouter } from 'react-router-dom';
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.scss';
@@ -10,7 +11,10 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    {/* Um <MemoryRouter> armazena suas localizações internamente em uma matriz. */}
+    <MemoryRouter initialEntries={["/"]}>
+      <App />
+    </MemoryRouter>
   </React.StrictMode>
 );
 
