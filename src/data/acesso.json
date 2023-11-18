@@ -1,0 +1,22 @@
+[
+    {
+        "user" : "Jairo Magno",
+        "privilegio": "Admin",
+        "horario": "10:05:30"
+    },
+    {
+        "user" : "Gabriel Florentino",
+        "privilegio": "Admin",
+        "horario": "11:05:50"
+    },
+    {
+        "user" : "Carlos Gabriel",
+        "privilegio": "Admin",
+        "horario": "09:00:47"
+    },
+    {
+        "user" : "Malki-çedheq",
+        "privilegio": "Admin",
+        "horario": "10:05:30"
+    }
+]

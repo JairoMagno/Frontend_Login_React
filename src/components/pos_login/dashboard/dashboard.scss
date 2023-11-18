@@ -4,17 +4,45 @@
     align-items: center;
 }
 
-.registros {
-    margin-bottom: 30px;
+.table {
+    max-width: 720px;
+    min-width: 360px;
+    max-height: 400px;
+    overflow: scroll;
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;     /* Firefox */
 }
 
+.table::-webkit-scrollbar {
+    display: none;             /*Chrome e safari*/
+}
+
+h1 {
+    font-size: 2rem;
+    color: black;
+}
+
+.table th{
+    padding: 15px;
+    background-color: #283650;
+    color: white;
+}
+
+tr:first-child th:first-child { border-top-left-radius: 10px; }
+tr:first-child th:last-child { border-top-right-radius: 10px; }
+
+tr:last-child td:first-child { border-bottom-left-radius: 10px; }
+tr:last-child td:last-child { border-bottom-right-radius: 10px; }
+
+tr:last-child {
+    border-style: hidden;
+}
 
 .open-door {
     margin-bottom: 50px;
 }
 
 .door-functions {
-    height: 50vh;
     margin-left: 150px;
 }
 

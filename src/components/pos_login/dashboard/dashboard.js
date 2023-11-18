@@ -1,18 +1,37 @@
+import Table from 'react-bootstrap/Table';
 import OpenDoor from './doorcontrol';
-import registos from '../../../data/registros.json'
-import { Card } from "react-bootstrap";
+import acesso from '../../../data/acesso.json'
 import './dashboard.scss';
 
 function DashBoard () {
 
+    const tableHead = ['Usuário', 'Privilégio', 'Horário']
+
     return (
         <section className="dashboard">
-            <Card border="light" style={{width: '25rem'}} className="shadow p-3 mb-5 bg-light-tertiary rounded">
-                <h1 className='registros'> Registros (Dia) </h1>
-                {registos.map((dado, index) => (
-                    <h2 key={index}>{dado.user}</h2>
-                ))}
-            </Card>
+            <section className='table'>
+                <h1>Registros (DIA)</h1>
+                <Table responsive striped>
+                    <thead>
+                        <tr>
+                            <th></th>
+                            {tableHead.map((data, index) => (
+                                <th>{data}</th>
+                            ))}
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {acesso.map((data, index) => (
+                            <tr>
+                                <td>{index+1}</td>
+                                <td>{data.user}</td>
+                                <td>{data.privilegio}</td>
+                                <td>{data.horario}</td>
+                            </tr>
+                        ))}
+                    </tbody>
+                </Table>
+            </section>
             <OpenDoor />
         </section>
     );

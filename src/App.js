@@ -20,10 +20,11 @@ function App() {
       <main >
         <section className="app-container">
           {/* As rotas se aninham uma dentro da outra. Caminhos de rota aninhados são construídos sobre
-          caminhos de rota pai e elementos de rota aninhados são renderizados dentro
+          caminhos de rota 
+          pai e elementos de rota aninhados são renderizados dentro
           elementos de rota pai. Veja a nota sobre <Outlet> abaixo. */}
           <Routes>
-            <Route path='/' element={ <Layout />}>
+            <Route path='/'  element={ <Layout />}>
                 <Route index element={ <DashBoard /> } />
                 <Route path='cadastro'  element={ <Cadastro />} />
                 <Route path='registro'  element={ <Registro />} />
