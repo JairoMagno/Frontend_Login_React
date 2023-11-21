@@ -36,7 +36,7 @@ function SideBar () {
               </NavLink>
             ))}
 
-            <NavLink to="/">
+            <NavLink to="/login">
               <CDBSidebarMenuItem > Logout</CDBSidebarMenuItem>
             </NavLink>
             

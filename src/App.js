@@ -1,10 +1,3 @@
-/*import { 
-  createBrowserRouter, 
-  Route, 
-  NavLink, 
-  createRoutesFromElements,
-  RouterProvider
-} from 'react-router-dom';*/
 import { Routes, Route } from 'react-router-dom';
 import Layout from './components/pos_login/layout/layout';
 import DashBoard from './components/pos_login/dashboard/dashboard';

@@ -1,6 +1,7 @@
 [
     {
         "label": "iusuario",
+        "value": "email",
         "span": "person",
         "type": "email", 
         "name": "Email",
@@ -11,6 +12,7 @@
     },
     {
         "label": "isenha",
+        "value": "senha",
         "span": "vpn_key",
         "type": "password", 
         "name": "Senha",

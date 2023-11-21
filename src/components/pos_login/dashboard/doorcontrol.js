@@ -32,9 +32,9 @@ function OpenDoor () {
         <section className='door-status'>
             <h2 className='titulo'>Status:</h2>
             <Card border="light" 
-                    style={{width: '8rem'}} 
-                    className="status" 
-                    bg={color}>
+                  style={{width: '8rem'}} 
+                  className="status" 
+                  bg={color}>
                 <span className='open-close'>{door}</span>
             </Card>
         </section>
